@@ -1,0 +1,112 @@
+/* General layout and formatting */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header,
+nav,
+article,
+footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Header */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFDEDE;
+  font-size: 2.5em;
+}
+
+header {
+  background-image: url("https://mcusercontent.com/2362ec15c027bb8361eb885c7/images/dcdada31-bcf4-e999-14a0-8645c20f6a3e.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #1E90FF;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.nav-item {
+  font-size: 1.2em;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: #FFD700;
+}
+
+/* Article and project section */
+article {
+  background-color: #0B41AC;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #DBE7FF;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: #BDD3FF;
+  line-height: 1.6;
+}
+
+/* Images */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* Iframes */
+iframe {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: #3A5DA4;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer a {
+  color: #e4d3d3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #FFD700;
+}
+
+/* Body Background */
+body {
+  background-color: #F0F8FF;
+  font-family: 'Roboto', sans-serif;
+}
