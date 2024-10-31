@@ -51,12 +51,12 @@ main {
   }
   
   .nav-item a:hover {
-    color: #FFD700;
+    color: #303030;
   }
   
   /* Article and project section */
   article {
-    background-color: #0B41AC;
+    background-color: #A7C7E7;
     padding: 15px;
     border-radius: 10px;
   }
