@@ -67,13 +67,14 @@ main {
   }
   
   p {
-    color: #BDD3FF;
+    color: #000000;
     line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Images */
   .img-responsive {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     margin: 10px 0;
