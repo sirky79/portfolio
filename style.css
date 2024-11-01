@@ -1,6 +1,6 @@
 /* General layout and formatting */
 main {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -22,15 +22,15 @@ main {
   }
   
   header {
-    background-image: url("https://mcusercontent.com/2362ec15c027bb8361eb885c7/images/dcdada31-bcf4-e999-14a0-8645c20f6a3e.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 250px;
+    background-image: url("/Works/Shang portrait.png");
+    background-position: center 30%; /* Slightly lowers the background image */
+    background-size: 90%;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
   /* Navigation Bar */
   nav {
     background-color: #1E90FF;
@@ -124,3 +124,39 @@ main {
   float: right; }
 .u-pull-left {
   float: left; }
+
+
+/* About Me section layout */
+#aboutme article {
+  display: flex;
+  flex-direction: column; /* Stack header on top */
+  gap: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start; /* Align image and paragraph to the top */
+  gap: 20px; /* Space between image and paragraph */
+}
+
+.img-responsive {
+  width: 30%; /* Adjust width as needed */
+  height: auto;
+  border-radius: 10px;
+  margin: 0;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em; /* Increased font size */
+}
+
+p {
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em; /* Increased font size */
+  line-height: 1.6;
+  width: 60%; /* Adjust width as needed */
+}
+
