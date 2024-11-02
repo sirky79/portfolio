@@ -22,7 +22,7 @@ main {
   }
   
   header {
-    background-image: url("/Works/Shang portrait.png");
+    background-image: url("/Works/Shang%20portrait.png");
     background-position: center 30%; /* Slightly lowers the background image */
     background-size: 90%;
     height: 400px;
