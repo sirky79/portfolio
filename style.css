@@ -63,7 +63,7 @@ main {
   
   h2 {
     color: #DBE7FF;
-    font-family: 'Roboto', sans-serif;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   p {
@@ -126,6 +126,44 @@ main {
   float: left; }
 
 
+
+  .project-content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between image and text */
+  }
+  
+  .graphic-img {
+    width: 30%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .calmness-img{
+    width: 40%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+  }
+.tjay-img{
+  width: 35%; /* Adjust width as needed */
+  height: auto;
+  border-radius: 10px;
+  margin: 0;
+}
+
+  .project-content p {
+    width: 60%; /* Adjust width as needed */
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.model-img{
+    width: 60%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+  }
 /* About Me section layout */
 #aboutme article {
   display: flex;
@@ -158,5 +196,14 @@ p {
   font-size: 1.2em; /* Increased font size */
   line-height: 1.6;
   width: 60%; /* Adjust width as needed */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A5DA4;
+    padding: 20px;
+    border-radius: 10px;
 }
 
